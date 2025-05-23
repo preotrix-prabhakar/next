@@ -1,0 +1,14 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.pageContainer {
+  /* margin-left: 250px; */
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}

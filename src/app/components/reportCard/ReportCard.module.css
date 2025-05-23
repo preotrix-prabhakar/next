@@ -1,0 +1,25 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f0f9ff;
+}
+
+.title {
+  color: #1d4ed8;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 14px;
+}

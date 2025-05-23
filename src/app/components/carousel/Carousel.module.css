@@ -1,0 +1,28 @@
+.carouselContainer {
+  overflow: hidden;
+  position: relative;
+  height: 160px;
+  margin-bottom: 24px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  flex: 0 0 10%; /* 100 / 10 = 10% for 10 items */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1d4ed8;
+  height: 160px;
+  border-right: 1px solid #e5e7eb;
+  background-color: #eef2ff;
+}

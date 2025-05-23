@@ -1,0 +1,32 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.select {
+  min-width: 200px;
+  flex: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
